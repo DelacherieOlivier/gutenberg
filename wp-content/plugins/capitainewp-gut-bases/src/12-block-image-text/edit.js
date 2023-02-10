@@ -58,7 +58,7 @@ export default function Edit( props ) {
 
 			) : (
 
-				<p className="capitaine-image-wrapper">
+				<p className="image--content">
 					<img
 						className="image"
 						src={ props.attributes.pictureURL }

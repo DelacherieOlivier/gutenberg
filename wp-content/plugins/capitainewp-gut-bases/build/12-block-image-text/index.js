@@ -67,7 +67,7 @@ function Edit(props) {
       }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Import', 'capitainewp-gut-bases')));
     }
   })) : (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "capitaine-image-wrapper"
+    className: "image--content"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     className: "image",
     src: props.attributes.pictureURL,
@@ -144,7 +144,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function save(props) {
   const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save();
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     className: "image",
     src: props.attributes.pictureURL,
     alt: props.attributes.pictureAlt
@@ -158,7 +158,7 @@ function save(props) {
     tagName: "h2",
     className: "title",
     value: props.attributes.title
-  }));
+  })));
 }
 
 /***/ }),

@@ -34,5 +34,6 @@ function create_block_capitainewp_gut_bases_block_init() {
 	register_block_type( __DIR__ . '/build/10-url' );
 	register_block_type( __DIR__ . '/build/11-media' );
 	register_block_type( __DIR__ . '/build/12-block-image-text' );
+	register_block_type( __DIR__ . '/build/12-inspector' );
 }
 add_action( 'init', 'create_block_capitainewp_gut_bases_block_init' );
