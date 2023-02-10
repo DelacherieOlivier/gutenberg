@@ -1,0 +1,3 @@
+<?php get_header()?>
+<?php ecv(); ?>
+<?php get_footer()?>
